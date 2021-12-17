@@ -1,12 +1,5 @@
-const sumar = (a, b) => {
-    return a + b;
-}
+const sumar = (a, b) => a + b ;
 
-const dividir = ( x, y) => {
-    if(y === 0){
-        return "no se puede dividir entre 0";
-    }
-    return x/y;
-}
+const dividir = ( x, y) => (y === 0) ? "no se puede dividir entre 0" : x/y ;
 
 module.exports = {sumar, dividir};
