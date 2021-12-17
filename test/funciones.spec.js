@@ -1,11 +1,11 @@
-const {suma, dividir} = require("../src/funciones")
+const {sumar, dividir} = require("../src/funciones")
 
 describe("Verifica que la funcion suma trabaje bien", ()=>{
     test("Debe devolver 9" , ()=>{
         const a = 4;
         const b = 5;
         const debeSer = 9;
-        expect(suma(a, b)).toBe(debeSer)
+        expect(sumar(a, b)).toBe(debeSer)
     })
 } )
 
